@@ -83,11 +83,9 @@ When using proactive messaging to send notifications you must ensure your users 
 > [!Note]
 > Proactively installing apps using the Microsoft Graph is currently in beta.
 
-Occasionally it may be necessary to proactively message users that have not installed or interacted with your app previously. For example, you want to use the [company communicator](~/samples/app-templates.md#company-communicator) to send messages to your entire organization. For this scenario you can use the Graph API to proactively install your app for your users, then cache the necessary values from the `conversationUpdate` event your app receives upon installation.
+Occasionally it may be necessary to proactively message users that have not installed or interacted with your app previously. For example, you want to use the [company communicator](~/samples/app-templates.md#company-communicator) to send messages to your entire organization. For this scenario, use the Graph API to proactively install your app for your users. Cache the necessary values from the `conversationUpdate` event your app receives upon installation.
 
-You can only install apps that are in your organizational app catalog or the Teams app store.
-
-See [Install apps for users](/graph/api/userteamwork-post-installedapps) in the Graph documentation and [Proactive bot installation and messaging in Teams with Microsoft Graph](../../../graph-api/proactive-bots-and-messages/graph-proactive-bots-and-messages.md). There is also a [Microsoft .NET framework sample](https://github.com/microsoftgraph/contoso-airlines-teams-sample/blob/283523d45f5ce416111dfc34b8e49728b5012739/project/Models/GraphService.cs#L176) on the GitHub platform.
+You can only install apps that are in your organizational app catalog or the Teams app store. For proactive messaging in Teams, see [Enable proactive bot installation and messaging](../../../graph-api/proactive-bots-and-messages/graph-proactive-bots-and-messages.md). Users can install the [bot through Graph API](https://docs.microsoft.com/graph/api/userteamwork-post-installedapps?view=graph-rest-1.0&tabs=http) in personal scope. Check the [Microsoft .NET framework sample](https://github.com/microsoftgraph/contoso-airlines-teams-sample/blob/283523d45f5ce416111dfc34b8e49728b5012739/project/Models/GraphService.cs#L176) on the GitHub platform.
 
 ## Examples
 
