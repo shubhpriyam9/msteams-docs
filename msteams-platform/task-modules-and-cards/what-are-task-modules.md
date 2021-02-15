@@ -1,5 +1,6 @@
 ---
 title: What are task modules?
+hihi
 author: clearab
 description: Add modal popup experiences to collect or display information to your users from your Microsoft Teams apps.
 ms.topic: overview
@@ -24,7 +25,7 @@ Here's what a task module looks like when invoked from a bot (without the colore
 ![Task Module Example](~/assets/images/task-module/task-module-example.png)
 
 Let's walk through it:
-
+hihi
 1. Your app's [`color` icon](~/resources/schema/manifest-schema.md#icons).
 2. Your app's [`short` name](~/resources/schema/manifest-schema.md#name).
 3. The task module's title specified in the `title` property of the [TaskInfo object](#the-taskinfo-object).
